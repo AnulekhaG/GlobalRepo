@@ -15,12 +15,12 @@ public class CalculatorTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		System.out.println("before class");
+		System.out.println("before class method");
 	}
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		System.out.println("after class");
+		System.out.println("after class method");
 	}
 
 	@Before
